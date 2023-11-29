@@ -13,7 +13,7 @@ PlayerSettings:
   useOnDemandResources: 0
   accelerometerFrequency: 60
   companyName: Ledoux Benterprises
-  productName: Hands Test
+  productName: 'Humphrey''s: Help Wanted'
   defaultCursor: {fileID: 0}
   cursorHotspot: {x: 0, y: 0}
   m_SplashScreenBackgroundColor: {r: 0.13725491, g: 0.12156863, b: 0.1254902, a: 1}
@@ -135,9 +135,11 @@ PlayerSettings:
   vulkanEnableLateAcquireNextImage: 0
   vulkanEnableCommandBufferRecycling: 1
   loadStoreDebugModeEnabled: 0
-  bundleVersion: 0.0.3
+  bundleVersion: 0.0.4
   preloadedAssets:
   - {fileID: 11400000, guid: af0f30c46561e974a819e3874af5a12a, type: 2}
+  - {fileID: 11400000, guid: bd7890ff62ab06e42bbdd91ab505508a, type: 2}
+  - {fileID: -3280660985168862539, guid: 8774f2328aa431844b5b06e84fd11d8b, type: 2}
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -157,7 +159,7 @@ PlayerSettings:
   androidSupportedAspectRatio: 1
   androidMaxAspectRatio: 2.1
   applicationIdentifier:
-    Android: com.LedouxBenterprises.HandsTest
+    Android: com.LedouxBenterprises.HumphreysHelpWanted
   buildNumber:
     Standalone: 0
     VisionOS: 0
