@@ -96,6 +96,7 @@ GameObject:
   - component: {fileID: 6803815914734795399}
   - component: {fileID: 7035935551899111306}
   - component: {fileID: 9168006204283879155}
+  - component: {fileID: 2322075928096768054}
   m_Layer: 0
   m_Name: ID483
   m_TagString: Untagged
@@ -168,6 +169,28 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2322075928096768054
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5135100640975579237}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -2129747703883600905, guid: 0734ddd27c5793a46976008b116cd5f7, type: 3}
 --- !u!1 &8202725927588391332
 GameObject:
   m_ObjectHideFlags: 0
@@ -179,6 +202,7 @@ GameObject:
   - component: {fileID: 6948651225044284124}
   - component: {fileID: 2210588767747754877}
   - component: {fileID: 3630855262189533469}
+  - component: {fileID: 2102280520765197181}
   m_Layer: 0
   m_Name: ID475
   m_TagString: Untagged
@@ -251,3 +275,25 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!64 &2102280520765197181
+MeshCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8202725927588391332}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 0
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 5
+  m_Convex: 0
+  m_CookingOptions: 30
+  m_Mesh: {fileID: -6973522317765205186, guid: 0734ddd27c5793a46976008b116cd5f7, type: 3}
