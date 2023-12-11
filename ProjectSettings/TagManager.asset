@@ -7,6 +7,12 @@ TagManager:
   - Spout
   - Glass
   - Beer
+  - Handle
+  - Deny
+  - Confirm
+  - Back
+  - ID
+  - Scanner
   layers:
   - Default
   - TransparentFX

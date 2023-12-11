@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
+using Debug = UnityEngine.Debug;
 
 public class Fill : MonoBehaviour
 {
@@ -16,17 +18,22 @@ public class Fill : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Mathf.Abs(transform.localRotation.eulerAngles.x) > 135.0f || Mathf.Abs(transform.localRotation.eulerAngles.y) > 135.0f)
+        Vector3 rotation = new Vector3(transform.localEulerAngles.x, transform.localEulerAngles.y, transform.localEulerAngles.z);
+        if ((rotation.x > 90f && rotation.x < 270f) || (rotation.z > 90f && rotation.z < 270f))
         {
-//            beer.SetActive(false);
+            beer.SetActive(false);
         }
     }
 
-    void OnCollisionEnter(Collision collision)
+    void OnTriggerEnter(Collider col)
     {
-        if (collision.gameObject.CompareTag("Spout"))
+        if (col.gameObject.CompareTag("Spout"))
         {
-            beer.SetActive(true);
+            if (GameObject.FindWithTag("Handle").transform.localEulerAngles.x < 355f)
+            {
+                beer.SetActive(true);
+                //Debug.Log("Beer poured");
+            }
         }
     }
 }
